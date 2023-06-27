@@ -401,4 +401,45 @@
     font-weight: bold;
     }
 
+    @media only screen and (max-height: 480px) {
+        .signQuestion {
+            display: none;
+        }
 
+        #headline2 {
+        }
+
+        .margin_underline {
+            margin-top: 0px;
+            margin-bottom: 8px;
+        }
+        .login_main{
+            height: 360px;
+        }
+
+        .login_form {
+            max-height: 360px;
+        }
+
+        .login_form h2 {
+            padding-top: 0;
+        }
+
+        .signup_button {
+            position: relative;
+            top: 60vh;
+            left: -9vw;
+        }
+
+        .login_form_buttons {
+            position: relative;
+            top: 0.5vh;
+            left: -7vw;
+        }
+
+        .login_logo {
+            display: none;
+        }
+        }
+
+        

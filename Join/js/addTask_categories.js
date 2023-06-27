@@ -99,7 +99,7 @@ function acceptNewCategory() {
  * function to open or close the category-field by clicking on it
  */
 function openCloseCategories() {
-  if (document.getElementById('selectField').style.height == '192px') {
+  if (document.getElementById('selectField').style.height == '180px') {
     if ($(window).width() > 720) {
       document.getElementById('selectField').style.height = '50px';
     } else {
@@ -107,7 +107,7 @@ function openCloseCategories() {
     }
     document.getElementById('openedCategories').classList.add('d-none');
   } else {
-    document.getElementById('selectField').setAttribute('style', 'height: 192px !important;');
+    document.getElementById('selectField').setAttribute('style', 'height: 180px !important;');
     setTimeout(function () {
       document.getElementById('openedCategories').classList.remove('d-none');
     }, 150)

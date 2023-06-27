@@ -17,9 +17,6 @@ function loadingFinished() {
 
 /**
  * sets up the contacts application.
- * @param contacts - contains accounts of the company.
- * @param startingLetters - temporary container for sorting contacts in the UI list.
- * @param existingLetterIndex - helper data for iterating over startingletters.
  */
 async function loadContactSite() {
     await downloadFromServer();
@@ -279,11 +276,6 @@ function createShortname(prename, name) {
 
 /**
  * creates a contact out of the add contact popup card, saves in backend and navigates the ui back to the start of the contacts application.
- * @param contactPreName - the contacts pre name.
- * @param contactName - the contacts past name
- * @param contactEmail - the contacts email.
- * @param contactPhone - the contacts phonenumber.
- * @param newContact - the contact as a json.
  */
 async function addContact() {
     let contactPreName = document.getElementById('add_prename_input').value.trim();
@@ -309,11 +301,6 @@ async function addContact() {
 
 /**
  * edits a contact out of the edit contact popup card, saves in backend and navigates the ui back to the start of the contacts application.
- * @param contactPreName - the contacts pre name.
- * @param contactName - the contacts past name
- * @param contactEmail - the contacts email.
- * @param contactPhone - the contacts phonenumber.
- * @param newContact - the contact as a json.
  */
 async function editContact() {
     let contactPreName = document.getElementById('edit-prename-input').value.trim();

@@ -15,6 +15,7 @@ let state = 'todo';
 let subtasksChecked = [];
 
 
+
 /**
  * Initiates the main page
  */

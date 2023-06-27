@@ -195,4 +195,50 @@
         align-items: center;
         width: 100%;
     }
+
+}
+    @media only screen and (width: 667px ) {
+
+        .signup_mobile {
+            position: absolute;
+            top: 67px;
+            right: 114px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 35px;
+        }
+        .login_master {
+            height: auto;
+            margin-top: 15px;
+        }
+    
+            .login_form {
+            max-height: 350px;
+        }
+
+        .login_form_buttons {
+            flex-direction: row;
+        }
+
+        .login_form {
+            width: 550px;
+        }
+
+        .signup_button {
+            top: 39vh;
+            left: -3vw;
+        }
+
+
+        @media only screen and (max-height: 480px) {
+            .login_logo {
+                display: none;
+            }
+            .mobileLogin_Button {
+            position: static;
+        }
+        
+            }
+    
 }

@@ -500,7 +500,6 @@ function searchTasks() {
     showSearchedTask(search);
 }
 
-Join/js/addTask_contacts.js
 /**
  * function to show searched task
  * 

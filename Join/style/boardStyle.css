@@ -156,6 +156,7 @@ body {
     min-height: 200px;
     transition: 525ms;
     padding: 10px;
+    padding-bottom: 108px;
 }
 
 .todoContainer,

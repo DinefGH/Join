@@ -94,7 +94,7 @@ function passwordForgotten() {
             <span>Don't worry! We will send you an email with the instructions to reset your password.</span>
             <input class="input_email" id="email-field" type="email" name="email" placeholder="Email" required>
             <div class="login_form_buttons login_bottom_margin">
-            <button type="submit" class="login_button">Send me the email</button></div>
+            <button type="submit" class="login_button mobileLogin_Button">Send me the email</button></div>
         </form>             
     </div>
     `;

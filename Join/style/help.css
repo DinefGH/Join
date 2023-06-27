@@ -17,6 +17,8 @@
   .help-content--inner {
     margin: 30px;
     font-family: 'Inter Bold', sans-serif;
+    overflow-wrap: anywhere;
+    margin-bottom: 92px;
   }
 
   

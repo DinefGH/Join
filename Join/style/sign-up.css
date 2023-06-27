@@ -1,0 +1,12 @@
+@media only screen and (max-height: 480px) {
+    .login_form_buttons {
+        left: 0vw;
+    }
+    .login_form {
+        max-height: 350px;
+    }
+
+    .login_logo {
+        display: none;
+    }
+}

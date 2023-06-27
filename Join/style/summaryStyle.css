@@ -82,7 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 91vh;
+    height: 92.5vh;
 }
 
 .main-inner {
@@ -482,6 +482,11 @@ body {
         width: 45px;
     }
 
+    .deadline {
+        margin-right: 5px;
+    }
+    
+
     .todoNumber {
         font-size: 2rem;
     }
@@ -598,6 +603,27 @@ body {
     }
 }
 
+@media only screen and (width: 667px ) {
+    body {
+
+    height: 95vh !important;
+}
+}
+
+@media only screen and (width: 375px ) {
+
+    .contentChild {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-height: 420px ) {
+    .main {
+     height: 171.5vh;
+     }
+ }
+
 
 @media (min-height: 820px) {
     .main-inner {
@@ -622,6 +648,8 @@ body {
     .main-inner {
         margin-top: 80px;
     }
+
 }
+
 
 
